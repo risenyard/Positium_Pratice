@@ -84,7 +84,7 @@ bbox=dict(facecolor='none', edgecolor='none', pad=5))
 text_box.set_fontproperties('times new roman')
 text_box.set_fontsize(5)
 
-################# 5 map export and show ##########################
+################# 5 map export and show ###########################
 
 # export the map
 plt.savefig('Task-2-Result (by Python).png', dpi=300, bbox_inches='tight')
