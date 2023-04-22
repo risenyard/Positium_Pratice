@@ -8,7 +8,7 @@ from matplotlib.patches import Rectangle
 
 ################# 1 data import ################################
 # read the world geometry data exported form Task 1
-data = gpd.read_file('Task-2-Data/Task-2-Exported-Geomeries.gpkg')
+data = gpd.read_file('Task-2-Data/Task-1-Exported-Geomeries.gpkg')
 # get the GDP per capita
 data['GDP per capita']= 1000000* data['GDP_MD'] / data['POP_EST']
 # replace nan with 0
