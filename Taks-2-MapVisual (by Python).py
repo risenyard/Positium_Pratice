@@ -8,7 +8,7 @@ from matplotlib.patches import Rectangle
 
 ################# 1 data import ################################
 # read the world geometry data exported form Task 1
-data = gpd.read_file('Task-2-Data/Task-1-Exported-Geomeries.gpkg')
+data = gpd.read_file('Task-2-Data/Task-1-Exported-Geometries.gpkg')
 # get the GDP per capita
 data['GDP per capita']= 1000000* data['GDP_MD'] / data['POP_EST']
 # replace nan with 0
@@ -19,9 +19,9 @@ crs= ccrs.EckertIV()
 # project the data
 data=data.to_crs(crs)
 
-################# 2 canvas settings ###########################
+################# 2 figure and axis settings ##################
 
-# establish a canvas
+# establish a figutr
 fig = plt.figure(figsize=(10, 5))
 # set up and ax object
 ax = fig.add_subplot(1, 1, 1, projection=crs)
