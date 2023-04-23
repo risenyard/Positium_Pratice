@@ -1,6 +1,5 @@
 # Manual: Spatial Data Cleaning and Mapping in Python
 
-[TOC]
 
 ## Introduction
 
@@ -87,7 +86,7 @@ By doing this, we will have local and remote (in GitHub) repositories that conta
 
 
 
-## 2 Spatial Data Cleaning
+## 2 Spatial Data Cleaning (Task 1)
 
 *Python environment: Python 3.8*
 
@@ -212,7 +211,7 @@ data_v3.to_file('Task-2-Data/Task-1-Exported-Geometries.gpkg', layer='ISO_A2_Geo
 
 
 
-## 3 Spatial Data Mapping
+## 3 Spatial Data Mapping (Task 2)
 
 *Python environment: Python 3.8*
 
