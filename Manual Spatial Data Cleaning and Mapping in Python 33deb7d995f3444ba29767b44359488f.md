@@ -1,7 +1,5 @@
 # Manual: Spatial Data Cleaning and Mapping in Python
 
-*GitHub link for the project:  [https://github.com/risenyard/Positium_Pratice](https://github.com/risenyard/Positium_Pratice)*
-
 # Introduction
 
 This manual gives detailed instructions about how to set up the Python environment and how to handle spatial data including the data cleaning about the geometry and data mapping in the Python environment. The content of the manual includes the description of prerequisites, methods, codes, results and possible troubles.
